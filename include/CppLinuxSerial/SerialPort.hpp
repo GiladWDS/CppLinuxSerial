@@ -259,7 +259,7 @@ namespace mn {
 
             static constexpr BaudRate defaultBaudRate_ = BaudRate::B_115200;
             static constexpr int32_t defaultTimeout_ms_ = -1;
-            static constexpr unsigned char defaultReadBufferSize_B_ = 1028;
+            static constexpr unsigned char defaultReadBufferSize_B_ = 1024;
 
         };
 
