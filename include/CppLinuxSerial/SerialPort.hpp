@@ -255,11 +255,11 @@ namespace mn {
             int32_t timeout_ms_;
 
             std::vector<char> readBuffer_;
-            unsigned char readBufferSize_B_;
+            size_t readBufferSize_B_;
 
             static constexpr BaudRate defaultBaudRate_ = BaudRate::B_115200;
             static constexpr int32_t defaultTimeout_ms_ = -1;
-            static constexpr unsigned char defaultReadBufferSize_B_ = 1024;
+            static constexpr size_t defaultReadBufferSize_B_ = 1024;
 
         };
 
